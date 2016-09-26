@@ -1,2 +1,2 @@
 # t1a01-app-robbie
-basic android app from a web page
+https://roadrunnersrus.github.io/t1a01-app-robbie/

@@ -1,0 +1,93 @@
+int LED = D7;
+void setup(){
+  pinMode(LED, OUTPUT);    // sets pin as output
+}
+
+void loop()
+{
+                              //s
+  digitalWriteFast(D7, 1);           // set the LED on
+  delay(200);
+  digitalWriteFast(D7, 0);          // set the LED off
+  delay(200);
+  digitalWriteFast(D7, 1);           // set the LED on
+  delay(200);
+  digitalWriteFast(D7, 0);          // set the LED off
+  delay(200);
+  digitalWriteFast(D7, 1);           // set the LED on
+  delay(200);
+  digitalWriteFast(D7, 0);          // set the LED off
+  delay(200);
+                             //o
+  digitalWriteFast(D7, 1);           // set the LED on
+  delay(700);
+  digitalWriteFast(D7, 0);          // set the LED off
+  delay(200);
+  digitalWriteFast(D7, 1);           // set the LED on
+  delay(700);
+  digitalWriteFast(D7, 0);          // set the LED off
+  delay(200);
+  digitalWriteFast(D7, 1);           // set the LED on
+  delay(700);
+  digitalWriteFast(D7, 0);          // set the LED off
+  delay(200);
+                             //s
+  digitalWriteFast(D7, 1);           // set the LED on
+  delay(200);
+  digitalWriteFast(D7, 0);          // set the LED off
+  delay(200);
+  digitalWriteFast(D7, 1);           // set the LED on
+  delay(200);
+  digitalWriteFast(D7, 0);          // set the LED off
+  delay(200);
+  digitalWriteFast(D7, 1);           // set the LED on
+  delay(200);
+  digitalWriteFast(D7, 0);          // set the LED off
+  delay(200);
+
+  delay(5000);
+  myOwn(50, 100, 500);
+  delay(3000);
+}  
+
+void myOwn(int wait, int fast, int slow){
+  digitalWriteFast(D7, 1);           // set the LED on
+  delay(fast);
+  digitalWriteFast(D7, 0);          // set the LED off
+  delay(wait);
+  digitalWriteFast(D7, 1);           // set the LED on
+  delay(fast);
+  digitalWriteFast(D7, 0);          // set the LED off
+  delay(wait);
+  digitalWriteFast(D7, 1);           // set the LED on
+  delay(fast);
+  digitalWriteFast(D7, 0);          // set the LED off
+  delay(wait);
+
+  digitalWriteFast(D7, 1);           // set the LED on
+  delay(slow);
+  digitalWriteFast(D7, 0);          // set the LED off
+  delay(wait);
+  digitalWriteFast(D7, 1);           // set the LED on
+  delay(slow);
+  digitalWriteFast(D7, 0);          // set the LED off
+  delay(wait);
+  digitalWriteFast(D7, 1);           // set the LED on
+  delay(slow);
+  digitalWriteFast(D7, 0);          // set the LED off
+  delay(wait);
+
+  digitalWriteFast(D7, 1);           // set the LED on
+  delay(fast);
+  digitalWriteFast(D7, 0);          // set the LED off
+  delay(wait);
+  digitalWriteFast(D7, 1);           // set the LED on
+  delay(fast);
+  digitalWriteFast(D7, 0);          // set the LED off
+  delay(wait);
+  digitalWriteFast(D7, 1);           // set the LED on
+  delay(fast);
+  digitalWriteFast(D7, 0);          // set the LED off
+  delay(wait);
+
+}
